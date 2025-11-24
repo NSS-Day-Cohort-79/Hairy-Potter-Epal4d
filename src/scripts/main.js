@@ -3,6 +3,7 @@ import { makePottery } from "./PotteryWheel.js"
 import { firePottery } from "./kiln.js";
 import { toSellOrNotToSell } from "./potteryCatalog.js";
 import { usePottery } from "./potteryCatalog.js"
+import { potteryList } from "./potteryList.js";
 
 const sellPotteryArray = usePottery
 
@@ -45,3 +46,4 @@ console.log(firedPlate)
 
 
 // Invoke the component function that renders the HTML list
+
